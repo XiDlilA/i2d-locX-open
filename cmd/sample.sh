@@ -1,0 +1,1 @@
+python sample.py --cfg cfg/sample.toml --checkpoint checkpoints/kitti_100epoch.pth

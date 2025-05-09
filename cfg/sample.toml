@@ -1,0 +1,38 @@
+title = "i2d_locX_sample"
+gpus = [0]
+mode = "test"
+
+[experiment]
+seed = 3407
+
+[dataset]
+name = 'Dataset_Sample'
+root_folder = './sample'
+maps_folder = 'lidar'
+imgs_folder = 'image'
+test_sequence = "0"
+max_r = 10.0
+max_t = 2.0
+batch_size = 1
+num_workers = 1
+occlusion_threshold = 3
+occlusion_kernel = 5
+w_scale = 1
+h_scale = 1
+adjust_coordinate_order = [1, 2, 0]
+
+[evaluation]
+name = "FlowEvalFunction"
+
+[model]
+name = "I2D_LocX"
+iters = 4
+dim = 128
+radius = 4
+block_dims = [64, 128, 256]
+initial_dim = 64
+num_blocks = 2
+use_var = true
+var_max = 10
+var_min = 0
+pretrain = "resnet34"
