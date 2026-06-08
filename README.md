@@ -1,15 +1,3 @@
----
-language:
-- en
-library_name: pytorch
-tags:
-- camera-localization
-- lidar
-- image-to-depth-flow
-- robotics
-- kitti
----
-
 <div align="center">
 
 # I2D-LocX
