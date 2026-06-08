@@ -1,3 +1,15 @@
+---
+language:
+- en
+library_name: pytorch
+tags:
+- camera-localization
+- lidar
+- image-to-depth-flow
+- robotics
+- kitti
+---
+
 <div align="center">
 
 # I2D-LocX
@@ -182,4 +194,4 @@ If you find this project useful, please cite our IEEE RA-L paper:
 
 ## 11. Acknowledgments
 
-This repository is developed from [I2D-Loc](https://github.com/EasonChen99/I2D-Loc). The original I2D-Loc implementation builds upon [CMRNet](https://github.com/cattaneod/CMRNet), [RAFT](https://github.com/princeton-vl/RAFT), and [BPnP](https://github.com/BoChenYS/BPnP). We thank the authors for making their work publicly available.
+This repository is developed from [I2D-Loc](https://github.com/EasonChen99/I2D-Loc). The original I2D-Loc implementation builds upon [CMRNet](https://github.com/cattaneod/CMRNet), [RAFT](https://github.com/princeton-vl/RAFT), and [BPnP](https://github.com/BoChenYS/BPnP). I2D-LocX also benefits from [SEA-RAFT](https://github.com/princeton-vl/SEA-RAFT). We thank the authors for making their work publicly available.
